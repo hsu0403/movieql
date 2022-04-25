@@ -1,0 +1,30 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "use graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsu0403/movieql.git"
+  },
+  "author": "hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsu0403/movieql/issues"
+  },
+  "homepage": "https://github.com/hsu0403/movieql#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.3.0",
+    "graphql": "^16.3.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
